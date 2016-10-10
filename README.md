@@ -116,7 +116,67 @@ ctrl 4 ->repeat last pathfinder operation
 
 ###24 Working with Envelope Distort
 Object->envelope distort->make with top object
+a c c ->this will fit top object fit into buttom
+ 
+
+##2. Type Shortcuts
+###1 Applying type changes quickly
+change text type object, after editing,
+ctrl+enter
+
+###2 Changing paragraph justification
+s c r ->align right  
+s c l ->align left  
+s c c ->align center  
+s c j ->justified
+
+###3 Spacing and sizing shortcuts
+s c >   ->  increase font size  
+a c >   ->  increase font size(2x)  
+ a s c >   ->  increase font size (10x)  
+Spacing between lines, otherwise known as leading, and spacing between characters, otherwise known as tracking or kerning.  
+
+alt rigarr  -> increate kerning   (window->type->character panel)  
+alt uparr  -> increate leading  
+
+###4 Resetting your type
+Character panel->upright corner dropdown menu->reset panel
 
 
 
 
+##3. Brush and Tool Shortcuts
+###1 Changing brush size on the fly
+Preferences->config(ctrl k)->uncheck `Use Precise cursors`  
+] + drawing:increase brush size
+
+
+###2 Modifying shapes as you draw them
+rectancle->polygon,  
+uparr -> add sides of polygon  
+spacebar ->drag to any position  
+
+
+when drawing star:
+alt drag: may change star straight
+ctrl drag: more straight
+
+
+
+###3 Using one-click shape creation
+M ->click artboard->create rectangle(w,h)  
+create a star:radius1 > radius2  
+
+###4 Joining shapes with the Shape Builder tool
+shift m ->shpe builder tool
+
+alt+click to remove the part(02:55)
+
+
+##4. Automating 
+###1 Creating and using actions in Illustrator
+window->action
+
+
+###2 Saving time with graphic styles
+press D and alt+click new graphic style
